@@ -1,0 +1,8 @@
+{
+  "name": "tapovan-assessment-tool",
+  "version": "1.0.0",
+  "description": "Tapovan Progressive Assessment Tool",
+  "dependencies": {
+    "chart.js": "^4.3.0"
+  }
+}

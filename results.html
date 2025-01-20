@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tapovan Progressive Assessment Tool - Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tapovan Progressive Assessment Tool</h1>
+
+    <div class="results-container">
+        <h2>Results</h2>
+
+        <h3>Classification of Categories</h3>
+        <ul>
+            <li>80-100%: Normal</li>
+            <li>60-80%: Mild</li>
+            <li>40-60%: Moderate</li>
+            <li>20-40%: Severe</li>
+            <li>0-20%: Profound</li>
+        </ul>
+
+        <h3>Overall Performance</h3>
+        <p>Your child's overall performance is: <span id="overallPerformance"></span></p>
+        <p>Classification: <span id="classification"></span></p>
+
+        <div class="graph-container">
+            <canvas id="performanceGraph" width="400" height="200"></canvas>
+        </div>
+
+        <button id="viewGraph">View Graph</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
